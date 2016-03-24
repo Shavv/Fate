@@ -42,7 +42,12 @@
   </sprites>
   <backgrounds name="background">
     <background>background\tile_example</background>
-    <background>background\tile_wood</background>
+    <backgrounds name="World 1">
+      <background>background\bck_1_1</background>
+      <background>background\bck_1_2</background>
+      <background>background\bck_1_3</background>
+      <background>background\tile_wood</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
