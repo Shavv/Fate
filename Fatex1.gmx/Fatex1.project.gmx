@@ -56,6 +56,7 @@
       <script>scripts\stats_step.gml</script>
       <script>scripts\player_movement.gml</script>
       <script>scripts\player_only_grav.gml</script>
+      <script>scripts\player_defend.gml</script>
       <script>scripts\player_root.gml</script>
     </scripts>
     <scripts name="attacks">

@@ -85,12 +85,8 @@ switch (state)
   depth=obj_player.depth-2
   y=obj_player.y-11 
   x=obj_player.x-(8*obj_player.image_xscale)
-  image_yscale=1
   image_angle=150*obj_player.image_xscale
-  if keyboard_check_released(global.key_defend) or obj_player.grav!=0
-  {
-   state=0
-  }
+  image_yscale=1
   break;
  }
 }
@@ -121,11 +117,6 @@ switch (state)
 if keyboard_check(global.key_attack) and obj_player.grav=0
 {
  state=1
-}
-
-if keyboard_check(global.key_defend) and obj_player.grav=0
-{
- state=2
 }
 </string>
           </argument>

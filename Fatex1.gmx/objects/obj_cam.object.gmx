@@ -29,8 +29,18 @@
 zoomfactor=4
 dh=display_get_height()
 dw=display_get_width()
-view_wport=display_get_width()
-view_hport=display_get_height()
+
+
+window_set_fullscreen(1);
+window_set_size(display_get_width(),display_get_height());
+        
+view_wport[0] = display_get_width();
+view_hport[0] = display_get_height();
+view_wview[0] = display_get_width();
+view_hview[0] = display_get_height();
+view_enabled = 1;
+view_visible = 1;
+
 
 </string>
           </argument>
