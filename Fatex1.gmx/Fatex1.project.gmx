@@ -39,6 +39,9 @@
       <sprite>sprites\helmet_example</sprite>
       <sprite>sprites\spr_firecage</sprite>
     </sprites>
+    <sprites name="weather">
+      <sprite>sprites\spr_rain</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_example</background>
