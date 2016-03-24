@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -27,6 +27,10 @@
             <kind>1</kind>
             <string>///draw_background
 //draw_background_tiled(background2,view_xview[0]/2,view_yview[0]/2)
+
+background_x[0] = -view_xview/30
+background_x[1] = -view_xview/15
+background_x[2] = -view_xview/7.5
 </string>
           </argument>
         </arguments>
