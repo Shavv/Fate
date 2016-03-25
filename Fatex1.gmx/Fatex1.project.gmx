@@ -39,6 +39,10 @@
       <sprite>sprites\helmet_example</sprite>
       <sprite>sprites\spr_firecage</sprite>
     </sprites>
+    <sprites name="props">
+      <sprite>sprites\spr_stallags</sprite>
+      <sprite>sprites\spr_waterdrop</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_example</background>
@@ -86,6 +90,10 @@
     <object>objects\obj_greatsword</object>
     <objects name="parents">
       <object>objects\obj_weapon_parent</object>
+    </objects>
+    <objects name="props">
+      <object>objects\obj_stallags</object>
+      <object>objects\obj_waterdrop</object>
     </objects>
   </objects>
   <rooms name="rooms">
