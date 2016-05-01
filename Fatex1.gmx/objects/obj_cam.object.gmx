@@ -71,7 +71,7 @@ view_xview[0] = median(0, view_xview[0], room_width - view_wview[0])
 view_yview[0] = median(0, view_yview[0], room_height - view_hview[0]) 
 
 //screenshake
-if keyboard_check(vk_delete)
+if keyboard_check(vk_end)
 {
  scr_shake_view(10)
 }
