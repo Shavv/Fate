@@ -14,21 +14,38 @@
     <sprites name="concept">
       <sprite>sprites\sprite6</sprite>
       <sprite>sprites\sprite11</sprite>
+      <sprite>sprites\sprite16</sprite>
+      <sprite>sprites\sprite18</sprite>
+      <sprite>sprites\sprite17</sprite>
     </sprites>
     <sprites name="armory">
       <sprite>sprites\spr_example_armory</sprite>
+      <sprite>sprites\helm_iron_1</sprite>
+      <sprite>sprites\helm_iron_2</sprite>
+      <sprite>sprites\helm_iron_3</sprite>
     </sprites>
     <sprites name="weaponry">
       <sprite>sprites\spr_example_weaponry</sprite>
-      <sprite>sprites\ga_forest_1</sprite>
-      <sprite>sprites\gs_iron_2</sprite>
-      <sprite>sprites\gs_iron_1</sprite>
+      <sprites name="greataxe">
+        <sprite>sprites\ga_forest_1</sprite>
+      </sprites>
+      <sprites name="greatsword">
+        <sprite>sprites\gs_steel_1</sprite>
+        <sprite>sprites\gs_steel_2</sprite>
+        <sprite>sprites\gs_iron_1</sprite>
+        <sprite>sprites\gs_iron_2</sprite>
+        <sprite>sprites\gs_iron_3</sprite>
+        <sprite>sprites\gs_iron_4</sprite>
+      </sprites>
     </sprites>
     <sprites name="houses">
       <sprite>sprites\house_test</sprite>
+      <sprite>sprites\sprite13</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\key_init.gml</script>
