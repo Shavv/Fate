@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>2</page>
-    <xoffset>26</xoffset>
-    <yoffset>138</yoffset>
+    <page>0</page>
+    <xoffset>617</xoffset>
+    <yoffset>354</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -73,6 +73,8 @@
     <instance objName="obj_wall" x="320" y="544" name="inst_B70BF628" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="480" y="128" name="inst_D9C48236" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="INGAME" x="0" y="0" name="inst_F73CEB0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dummy" x="576" y="320" name="inst_633D357D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="weapon_image" x="576" y="384" name="inst_DA6F3C6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="384" y="576" w="105" h="74" xo="0" yo="0" id="10000001" name="inst_08AA3307" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

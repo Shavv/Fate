@@ -17,17 +17,22 @@
       <sprite>sprites\sprite16</sprite>
       <sprite>sprites\sprite18</sprite>
       <sprite>sprites\sprite17</sprite>
+      <sprite>sprites\house_test</sprite>
+      <sprite>sprites\sprite13</sprite>
     </sprites>
     <sprites name="armory">
       <sprite>sprites\spr_example_armory</sprite>
       <sprite>sprites\helm_iron_1</sprite>
       <sprite>sprites\helm_iron_2</sprite>
       <sprite>sprites\helm_iron_3</sprite>
+      <sprite>sprites\helm_iron_4</sprite>
+      <sprite>sprites\helm_iron_5</sprite>
     </sprites>
     <sprites name="weaponry">
       <sprite>sprites\spr_example_weaponry</sprite>
       <sprites name="greataxe">
         <sprite>sprites\ga_forest_1</sprite>
+        <sprite>sprites\sprite26</sprite>
       </sprites>
       <sprites name="greatsword">
         <sprite>sprites\gs_steel_1</sprite>
@@ -36,11 +41,13 @@
         <sprite>sprites\gs_iron_2</sprite>
         <sprite>sprites\gs_iron_3</sprite>
         <sprite>sprites\gs_iron_4</sprite>
+        <sprite>sprites\gs_iron_5</sprite>
+      </sprites>
+      <sprites name="staff">
       </sprites>
     </sprites>
-    <sprites name="houses">
-      <sprite>sprites\house_test</sprite>
-      <sprite>sprites\sprite13</sprite>
+    <sprites name="enemies">
+      <sprite>sprites\enemy_doofis_idle</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -63,6 +70,8 @@
       <object>objects\DISPLAY</object>
     </objects>
     <object>objects\obj_shadow</object>
+    <object>objects\dummy</object>
+    <object>objects\weapon_image</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\display_set</room>
